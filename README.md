@@ -258,7 +258,16 @@ end
 Folder Saturn-Titan-Enceladus TestCase Buildup proposes three examples of construction of Enceladus Fly-by Missions. The basic process is to search for the desired type of sequence of fly-bys within the database computed with the [DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20Search/DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m) algorithm. 
 It should be noted that the output of the search carried out in [DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20Search/DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m) contains only “void” fly-bys at Enceladus. This is, fly-bys that have no deflection or change between the arrival and final conditions. Hence, the purpose of the Demo_scripts in this section is to reconstruct the sequences by adding specific backbones or types of flybys at Enceladus. 
 
-[DEMO_TESTCASE1_PartialCOT_SolsticeCase.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20TestCase%20BuildUp/DEMO_TESTCASE1_PartialCOT_SolsticeCase.m) present a case where 10 consecutive encounters with Enceladus are achieved without encountering Titan at a distance smaller than *ThresholdDistance2routingTitan_Obligation*. 
+[DEMO_TESTCASE1_PartialCOT_SolsticeCase.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20TestCase%20BuildUp/DEMO_TESTCASE1_PartialCOT_SolsticeCase.m) present a case where 10 consecutive encounters with Enceladus are achieved without encountering Titan at a distance smaller than *ThresholdDistance2routingTitan_Obligation*. A partial COT Sequence is used to enforce 10 consecutive passages over the south pole. 
 
 ![TEST CASE 1 - Winter Solstice encounter](https://github.com/user-attachments/assets/3a9dc0a4-0845-4d08-8527-af782290f9a5)
+
+
+[DEMO_TESTCASE2_PartialCOT_EquinoxCase.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20TestCase%20BuildUp/DEMO_TESTCASE2_PartialCOT_EquinoxCase.m) proposes a case on which the partial COT is split with two passages over Enceladus at different true longitudes in the Saturn system. 
+
+![TEST CASE 2 South Pole Exploration during Equinox ](https://github.com/user-attachments/assets/6847b814-851b-4b91-a4c1-af39eb5174ab)
+
+[DEMO_TESTCASE3_Leading_trailing_GTs.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20TestCase%20BuildUp/DEMO_TESTCASE3_Leading_trailing_GTs.m) presents a test case where the goal is to demonstrate for rapid changes of fly-by configuration at Enceladus, thanks to the gravitational leverage of Titan. This allows for fly-bys that can allocate changes in pumb angle and thus map the leading and/or trailing side. 
+
+![TEST CASE 3 - Leading & Trailing](https://github.com/user-attachments/assets/7363227c-2821-45ff-afca-035c2533b600)
 
