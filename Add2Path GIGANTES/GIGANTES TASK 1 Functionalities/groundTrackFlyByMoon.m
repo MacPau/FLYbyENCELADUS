@@ -148,8 +148,8 @@ else
 end
 
 % --> make it comparable with Campagnola --> shift to east-longitude
-longs   = wrapTo2Pi(longs);
-long = wrapTo360(long);
+longs   = wrapToTwoPi(longs);
+long = wrapToThree60(long);
 
 end
 
