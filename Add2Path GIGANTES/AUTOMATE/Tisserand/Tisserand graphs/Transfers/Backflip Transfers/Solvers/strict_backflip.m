@@ -33,7 +33,7 @@ gm = constants(idcentral, idmoon);
 cart_fb_init = [rr1ga, vv1ga];
 
 kep2ga         = kep_fb;
-kep2ga(end)    = wrapToPi(wrapTo2Pi( kep2ga(end) + pi ));
+kep2ga(end)    = wrapToPi(wrapToTwoPi( kep2ga(end) + pi ));
 
 cart_fb_target = kep2car( kep2ga, gm );
 

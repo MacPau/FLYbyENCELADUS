@@ -15,7 +15,7 @@ else
     vvInfOU   = norm(vvinfin).*(vvinfouAM)./norm(vvinfouAM);
     vec       = 1/norm(vvInfOU).*(inv(MAT)*vvInfOU');
     gam       = atan2(vec(3),vec(2)); % from Izzo
-    gam       = wrapTo2Pi(gam);       % gam in [0, 360] deg
+    gam       = wrapToTwoPi(gam);       % gam in [0, 360] deg
     vvinfouBM = norm(vvinfin).*[cos(deltaMax).*b1 + cos(gam)*sin(deltaMax).*b2 + sin(gam)*sin(deltaMax).*b3];
     delta = deltaMax;
 end

@@ -27,7 +27,7 @@ end
 
 M2 = theta2M(tan2, e);
 M1 = theta2M(tan1, e);
-dm = wrapTo2Pi(M2-M1);
+dm = wrapToTwoPi(M2-M1);
 
 orbital_period = 2*pi*sqrt( a^3/gm );
 

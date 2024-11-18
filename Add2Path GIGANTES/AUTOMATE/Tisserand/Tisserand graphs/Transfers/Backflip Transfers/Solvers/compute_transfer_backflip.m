@@ -49,7 +49,7 @@ tan2 = kep1ga(end)+pi;
 target_tof = time_of_flight( a, e, muCentral, tan1, tan2, body_revolutions, forward );
 
 kep2ga         = kep1ga;
-kep2ga(end)    = wrapToPi(wrapTo2Pi( kep2ga(end) + pi ));
+kep2ga(end)    = wrapToPi(wrapToTwoPi( kep2ga(end) + pi ));
 car2           = kep2car(kep2ga, muCentral);
 rrga2          = car2(1:3);
 vvga2          = car2(4:6);
