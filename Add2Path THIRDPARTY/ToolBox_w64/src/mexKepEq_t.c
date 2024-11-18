@@ -79,7 +79,7 @@ void mexFunction(int nlhs, mxArray *plhs[],
         
     /* Compute the output and check for error */
     if(kepEq_t(f, a, ecc, mu, f0, t0, &out)==1)
-        mxErrMsgTxt("KepEq_t: The eccentricity is greater than 1!");
+        mexErrMsgTxt("KepEq_t: The eccentricity is greater than 1!");
     
     /*Allocate memory and assign out value to the output pointer */
     plhs[0] = mxCreateDoubleScalar(out);
