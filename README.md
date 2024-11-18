@@ -255,7 +255,9 @@ end
 ```
 
 ### 4. Saturn-Titan-Enceladus TestCase BuildUp
-Folder Saturn-Titan-Enceladus TestCase Buildup proposes three examples of construction of Enceladus Fly-by Missions. The basic process is to search for the desired type of sequence of fly-bys within the database computed with the DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m algorithms. 
-It should be noted that the output of the search carried out in DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m contains only “void” fly-bys at Enceladus. This is, fly-bys that have no deflection or change between the arrival and final conditions. Hence, the purpose of the Demo_scripts in this section is to reconstruct the sequences by adding specific backbones or types of flybys at Enceladus. 
+Folder Saturn-Titan-Enceladus TestCase Buildup proposes three examples of construction of Enceladus Fly-by Missions. The basic process is to search for the desired type of sequence of fly-bys within the database computed with the [DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20Search/DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m) algorithm. 
+It should be noted that the output of the search carried out in [DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20Search/DEMO_Saturn_Enceladus_Titan_PseudoOrb_SearchEngine.m) contains only “void” fly-bys at Enceladus. This is, fly-bys that have no deflection or change between the arrival and final conditions. Hence, the purpose of the Demo_scripts in this section is to reconstruct the sequences by adding specific backbones or types of flybys at Enceladus. 
+
+[DEMO_TESTCASE1_PartialCOT_SolsticeCase.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20TestCase%20BuildUp/DEMO_TESTCASE1_PartialCOT_SolsticeCase.m) present a case where 10 consecutive encounters with Enceladus are achieved without encountering Titan at a distance smaller than **ThresholdDistance2routingTitan_Obligation**
 
 
