@@ -1,4 +1,4 @@
-function alpha = wrapToTwoPi(alpha)
+function alpha = wrapToThree60(alpha)
 
 % DESCRIPTION
 % Wraps an angle from 0 to 2*pi.
@@ -11,7 +11,7 @@ function alpha = wrapToTwoPi(alpha)
 %
 % -------------------------------------------------------------------------
 
-% wrap to [0..2*pi]
+% wrap to [0,360]
 
-alpha = mod(alpha,2*pi);
+alpha = mod(alpha,360);
 end
