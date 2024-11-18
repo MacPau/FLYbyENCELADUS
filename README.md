@@ -260,5 +260,5 @@ It should be noted that the output of the search carried out in [DEMO_Saturn_Enc
 
 [DEMO_TESTCASE1_PartialCOT_SolsticeCase.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/Saturn-Titan-Enceladus%20TestCase%20BuildUp/DEMO_TESTCASE1_PartialCOT_SolsticeCase.m) present a case where 10 consecutive encounters with Enceladus are achieved without encountering Titan at a distance smaller than *ThresholdDistance2routingTitan_Obligation*. 
 
-![TEST CASE 1 - Winter Solstice encounter](https://github.com/user-attachments/assets/321bf5ea-6b71-4a09-bee0-7fc8d96518b8)
+![TEST CASE 1 - Winter Solstice encounter](https://github.com/user-attachments/assets/3a9dc0a4-0845-4d08-8527-af782290f9a5)
 
