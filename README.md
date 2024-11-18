@@ -44,6 +44,9 @@ The reference script is [DEMO_Plot_GroundTracks.m](https://github.com/MacPau/FLY
 
 The script [DEMO_Design_and_Visualize_GTs.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/GT%20Visualization/DEMO_Design_and_Visualize_GTs.m) adds the possibility to use the v_infinity sphere to understand the available flyby configurations and also plots the fly-by in a 3D representation with b-plane, to help understanding the physical behaviour observed in the mercator projection. 
 
+![Mercator Projection of Enceladus Fly-by](https://github.com/user-attachments/assets/0057425b-7706-48b2-9bdd-cc03902e96f0)
+
+
 ### 2. Backbones
 This folder contains the codes required to construct typical sequences of science driven flybys. In particular, one sub-folder contains the codes for achieving crank-over-the-top (COT) sequences and crossing ground-tracks, while another sub-folder contains the codes to compute petal rotations and the pump-Vinf map.
 
