@@ -24,7 +24,7 @@ To work with FLYbyENCELADUS, one can simply clone the repository in the local ma
 git clone "https://github.com/MacPau/FLYbyENCELADUS.git"
 ```
 
-Only invited developers can contribute to the folder, and each should create a separate branch or fork, otherwise push requests will not be accepted on main branch modifications. This work is under [European Space Agency Public License (ESA-PL) Permissive (Type 3) - v2.4 licence](https://essr.esa.int/license/european-space-agency-public-license-v2-4-permissive-type-3). See [LICENSE](https://github.com/andreabellome/saturn_moon_tours/blob/main/LICENSE) file for details.
+Only invited developers can contribute to the folder, and each should create a separate branch or fork, otherwise push requests will not be accepted on main branch modifications. This work is under [European Space Agency Public License (ESA-PL) Permissive (Type 3) - v2.4 licence](https://essr.esa.int/license/european-space-agency-public-license-v2-4-permissive-type-3). See [LICENSE](https://github.com/MacPau/FLYbyENCELADUS/blob/main/LICENSE.txt)) file for details.
 
 To cite this software, please cite Bellome [[4]](#4) and Bellome et al. [[5]](#5).
 
@@ -40,9 +40,9 @@ To use the repository, one finds four main folders, one for each of the function
 ### 1. GT Visualization
 This folder containts two main DEMO_scripts.m that shall be used as base to prepare specific visualizations of the ground tracks achieved with sequences of flybys. 
 
-The reference script is [DEMO_Plot_GroundTracks.m](https://github.com/update_update_update.m). This provided the minimum base to plot a mercator projection of a flyby given the flyby entry Node description and flyby departure Node. 
+The reference script is [DEMO_Plot_GroundTracks.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/GT%20Visualization/DEMO_Plot_GroundTracks.m). This provided the minimum base to plot a mercator projection of a flyby given the flyby entry Node description and flyby departure Node. 
 
-The script [DEMO_Design_and_Visualize_GTs.m](https://github.com/update_update_update.m) adds the possibility to use the v_infinity sphere to understand the available flyby configurations and also plots the fly-by in a 3D representation with b-plane, to help understanding the physical behaviour observed in the mercator projection. 
+The script [DEMO_Design_and_Visualize_GTs.m](https://github.com/MacPau/FLYbyENCELADUS/blob/main/GT%20Visualization/DEMO_Design_and_Visualize_GTs.m) adds the possibility to use the v_infinity sphere to understand the available flyby configurations and also plots the fly-by in a 3D representation with b-plane, to help understanding the physical behaviour observed in the mercator projection. 
 
 ### 2. Backbones
 This folder contains the codes required to construct typical sequences of science driven flybys. In particular, one sub-folder contains the codes for achieving crank-over-the-top (COT) sequences and crossing ground-tracks, while another sub-folder contains the codes to compute petal rotations and the pump-Vinf map.
